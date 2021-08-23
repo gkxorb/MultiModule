@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.study.web.admin.AdminApplicationTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2021-08-23T09:49:08" hostname="LAPTOP-DFB50G2B" time="0.012">
+  <properties/>
+  <testcase name="test1()" classname="com.study.web.admin.AdminApplicationTests" time="0.009"/>
+  <testcase name="test2()" classname="com.study.web.admin.AdminApplicationTests" time="0.001"/>
+  <testcase name="test3()" classname="com.study.web.admin.AdminApplicationTests" time="0.001"/>
+  <system-out><![CDATA[before All
+beforeeach
+test1
+aftereach
+beforeeach
+test2
+aftereach
+beforeeach
+test3
+aftereach
+afterAll
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

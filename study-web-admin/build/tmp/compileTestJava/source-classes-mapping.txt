@@ -1,0 +1,8 @@
+com/study/web/admin/AdminApplicationTests.java
+ com.study.web.admin.AdminApplicationTests
+com/study/web/admin/service/MemberServiceTest.java
+ com.study.web.admin.service.MemberServiceTest
+com/study/web/admin/repository/MemoryMemberRepositoryTest.java
+ com.study.web.admin.repository.MemoryMemberRepositoryTest
+com/study/web/admin/service/MemberServiceIntegrationTest.java
+ com.study.web.admin.service.MemberServiceIntegrationTest

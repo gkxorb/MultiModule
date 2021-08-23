@@ -1,0 +1,16 @@
+spring:
+  profiles:
+    active: dev
+    include: global-config
+  mvc:
+    view:
+      suffix: .html
+  datasource:
+    url: jdbc:h2:tcp://localhost/~/test
+    driver-class-name: org.h2.Driver
+    data-username: sa
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: none
+

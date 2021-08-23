@@ -1,0 +1,7 @@
+bootJar {
+    launchScript()
+}
+
+dependencies {
+    compile project(":study-common")
+}

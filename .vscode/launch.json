@@ -1,0 +1,24 @@
+{
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Spring Boot-AdminApplication<admin>",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "console": "internalConsole",
+      "mainClass": "com.study.web.admin.AdminApplication",
+      "projectName": "admin",
+      "args": ""
+    },
+    {
+      "type": "java",
+      "name": "Spring Boot-AdminApplication<study-web-admin>",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "console": "internalConsole",
+      "mainClass": "com.study.web.admin.AdminApplication",
+      "projectName": "study-web-admin",
+      "args": ""
+    }
+  ]
+}
