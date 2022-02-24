@@ -39,8 +39,8 @@ public class SpringConfig {
     public IMemberRepository memberRepository(){
         //return new MemoryMemberRepository();                              // Memory 객체 저장
         //return new JdbcMemberRepository(this._datasource);                // Jdbc를 이용한 저장
-        //return new JdbcTemplateMemberRepository(this._datasource);        // Jdbc를 이용한 저장
-        return new JPAMemberRepository(this._entityManager);                // JPA를 이용한 저장
+        return new JdbcTemplateMemberRepository(this._datasource);        // Jdbc를 이용한 저장
+        //return new JPAMemberRepository(this._entityManager);                // JPA를 이용한 저장
     }
 
 }
