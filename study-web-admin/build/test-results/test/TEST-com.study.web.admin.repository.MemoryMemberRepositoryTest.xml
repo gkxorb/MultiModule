@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.study.web.admin.repository.MemoryMemberRepositoryTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2021-08-23T09:49:08" hostname="LAPTOP-DFB50G2B" time="0.062">
-  <properties/>
-  <testcase name="findAll()" classname="com.study.web.admin.repository.MemoryMemberRepositoryTest" time="0.059"/>
-  <testcase name="findByName()" classname="com.study.web.admin.repository.MemoryMemberRepositoryTest" time="0.001"/>
-  <testcase name="save()" classname="com.study.web.admin.repository.MemoryMemberRepositoryTest" time="0.001"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>

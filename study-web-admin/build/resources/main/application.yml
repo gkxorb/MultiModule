@@ -5,10 +5,23 @@ spring:
   mvc:
     view:
       suffix: .html
-  datasource:
-    url: jdbc:h2:tcp://localhost/~/test
-    driver-class-name: org.h2.Driver
-    data-username: sa
+
+
+  #datasource:
+    #url: jdbc:h2:tcp://localhost/~/test
+    #driver-class-name: org.h2.Driver
+    #data-username: sa
+
+  datasources:
+    hikari:
+      h2:
+        jdbc-url: jdbc:h2:tcp://localhost/~/test
+        driver-class-name: org.h2.Driver
+        username: sa
+        password:
+        minimum-idle: 1
+        maximum-pool-size: 3
+
   jpa:
     show-sql: true
     hibernate:

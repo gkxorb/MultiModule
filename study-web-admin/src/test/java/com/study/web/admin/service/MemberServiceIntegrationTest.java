@@ -2,8 +2,6 @@ package com.study.web.admin.service;
 
 import com.study.web.admin.domain.Member;
 import com.study.web.admin.repository.IMemberRepository;
-import com.study.web.admin.repository.MemoryMemberRepository;
-import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -26,7 +24,7 @@ public class MemberServiceIntegrationTest {
     IMemberRepository _memberRepository;
 
     @Test
-    //@Commit     // @Transactional 에 대한 옵션 - 해당 Function은 Commit 됨!
+    @Commit     // @Transactional 에 대한 옵션 - 해당 Function은 Commit 됨!
     void  회원가입() {
         //given - 무언가 주어졌을때
         Member givenMember = new Member();
