@@ -1,26 +1,30 @@
-com/study/web/admin/AdminApplication.java
- com.study.web.admin.AdminApplication
-com/study/web/admin/controller/test/MvcTemplateController.java
- com.study.web.admin.controller.test.MvcTemplateController
 com/study/web/admin/controller/test/ApiController.java
  com.study.web.admin.controller.test.ApiController
  com.study.web.admin.controller.test.ApiController$ApiSampleData
-com/study/web/admin/domain/template/MemberForm.java
- com.study.web.admin.domain.template.MemberForm
-com/study/web/admin/service/MemberService.java
- com.study.web.admin.service.MemberService
-com/study/web/admin/repository/IMemberRepository.java
- com.study.web.admin.repository.IMemberRepository
-com/study/web/admin/repository/MemoryMemberRepository.java
- com.study.web.admin.repository.MemoryMemberRepository
+com/study/web/admin/repository/JdbcTemplateMemberRepository.java
+ com.study.web.admin.repository.JdbcTemplateMemberRepository
 com/study/web/admin/domain/Member.java
  com.study.web.admin.domain.Member
+com/study/web/admin/controller/test/MvcTemplateController.java
+ com.study.web.admin.controller.test.MvcTemplateController
+com/study/web/admin/repository/MemoryMemberRepository.java
+ com.study.web.admin.repository.MemoryMemberRepository
+com/study/web/admin/domain/template/MemberForm.java
+ com.study.web.admin.domain.template.MemberForm
 com/study/web/admin/controller/MemberController.java
  com.study.web.admin.controller.MemberController
 com/study/web/admin/repository/JPAMemberRepository.java
  com.study.web.admin.repository.JPAMemberRepository
-com/study/web/admin/repository/JdbcTemplateMemberRepository.java
- com.study.web.admin.repository.JdbcTemplateMemberRepository
+com/study/web/admin/service/MemberService.java
+ com.study.web.admin.service.MemberService
+com/study/web/admin/config/HikariConfigProperties.java
+ com.study.web.admin.config.HikariConfigProperties
+com/study/web/admin/repository/IMemberRepository.java
+ com.study.web.admin.repository.IMemberRepository
+com/study/web/admin/repository/MybatisMemberRepository.java
+ com.study.web.admin.repository.MybatisMemberRepository
+com/study/web/admin/AdminApplication.java
+ com.study.web.admin.AdminApplication
 com/study/web/admin/repository/JdbcMemberRepository.java
  com.study.web.admin.repository.JdbcMemberRepository
 com/study/web/admin/config/SpringConfig.java

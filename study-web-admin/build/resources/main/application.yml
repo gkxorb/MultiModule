@@ -20,7 +20,14 @@ spring:
         username: sa
         password:
         minimum-idle: 1
-        maximum-pool-size: 3
+        maximum-pool-size: 10
+      mssql:
+        jdbc-url: jdbc:sqlserver://61.101.55.159:8902;database=icoop
+        driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
+        username: wcs
+        password: Altiall!000@
+        minimum-idle: 1
+        maximum-pool-size: 10
 
   jpa:
     show-sql: true
