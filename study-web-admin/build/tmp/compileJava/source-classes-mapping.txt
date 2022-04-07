@@ -27,7 +27,7 @@ com/study/web/admin/AdminApplication.java
  com.study.web.admin.AdminApplication
 com/study/web/admin/repository/JdbcMemberRepository.java
  com.study.web.admin.repository.JdbcMemberRepository
-com/study/web/admin/config/SpringConfig.java
- com.study.web.admin.config.SpringConfig
 com/study/web/admin/config/DataSourceConfig.java
  com.study.web.admin.config.DataSourceConfig
+com/study/web/admin/config/RepositoryConfig.java
+ com.study.web.admin.config.RepositoryConfig

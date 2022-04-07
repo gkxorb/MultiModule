@@ -6,6 +6,7 @@ import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.Primary;
 import org.springframework.jdbc.datasource.DataSourceTransactionManager;
 import org.springframework.transaction.PlatformTransactionManager;
 
@@ -21,6 +22,7 @@ public class DataSourceConfig {
         return new HikariConfigProperties();
     }
 
+    @Primary
     @Bean("H2DataSource")
     //@ConfigurationProperties("spring.datasources.hikari.h2")
     public DataSource h2Datasource(@Qualifier("H2Properties") HikariConfigProperties properties){
@@ -45,7 +47,8 @@ public class DataSourceConfig {
         */
     }
 
-    @Bean("h2TransactionManager")
+    @Primary
+    @Bean("H2TransactionManager")
     public PlatformTransactionManager platformTransactionManager(@Qualifier("H2DataSource") DataSource dataSource) {
         return new DataSourceTransactionManager(dataSource);
     }
@@ -58,7 +61,6 @@ public class DataSourceConfig {
     }
 
     @Bean("MsSQLDataSource")
-    //@ConfigurationProperties("spring.datasources.hikari.mssql")
     public DataSource mssqlDatasource(@Qualifier("MSSQLProperties") HikariConfigProperties properties){
 
         // Hikari Datasource
