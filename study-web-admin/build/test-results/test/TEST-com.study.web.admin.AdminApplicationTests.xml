@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.study.web.admin.AdminApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-04-08T07:04:49" hostname="LAPTOP-DFB50G2B" time="0.01">
+  <properties/>
+  <testcase name="test3()" classname="com.study.web.admin.AdminApplicationTests" time="0.01"/>
+  <system-out><![CDATA[before All
+beforeeach
+test3
+aftereach
+afterAll
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -63,6 +63,7 @@ public class MemberServiceIntegrationTest {
         //given
         //when
         List<Member> memberList = _memberService.findMemebers();
+        System.out.println();
 
         //then
         assertThat(memberList.size()).isEqualTo(0);

@@ -1,7 +1,7 @@
 package com.study.web.admin.config;
 
 import com.study.web.admin.repository.IMemberRepository;
-import com.study.web.admin.repository.JdbcTemplateMemberRepository;
+import com.study.web.admin.repository.MybatisMemberRepository;
 import com.study.web.admin.service.MemberService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
@@ -46,7 +46,8 @@ public class RepositoryConfig {
     public IMemberRepository memberRepository(){
         //return new MemoryMemberRepository();                              // Memory 객체 저장
         //return new JdbcMemberRepository(this._datasource);                // Jdbc를 이용한 저장
-        return new JdbcTemplateMemberRepository(this._h2Datasource);        // Jdbc를 이용한 저장
+        //return new JdbcTemplateMemberRepository(this._h2Datasource);        // Jdbc Template 를 이용한 저장
+        return new MybatisMemberRepository();                               // Mybatis 를 이용한 저장
         //return new JPAMemberRepository(this._entityManager);              // JPA를 이용한 저장
     }
 

@@ -1,0 +1,56 @@
+POST http://apigw.llogis.com:10110/api/pid/cus/714a/apiSndOutNonRsrv
+Content-Type: application/json
+Authorization: IgtAK eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiJDMDEyNzg1IiwiYXVkIjoiQzAxMjc4NSIsIm5hbWUiOiJsZ3hqMjAiLCJzY29wZSI6IlJTX0FERFIiLCJleHAiOjE1MzUxMzU1OTk5OTksImlhdCI6MTY0NTY5MTc0N30.cMGPlQ9U3JgLLr2tPeLs976StRahd2h-_JYeUt8uMVw
+
+{
+  "snd_list": [
+    {
+      "jobCustCd": "244986",
+      "ustRtgSctCd": "01",
+      "ordSct": "B",
+      "fareSctCd": "03",
+      "ordNo": "",
+      "invNo": "31060432005",
+      "acperCd": "N1020",
+      "brandCd": "NG",
+      "boxTypCd": "F",
+      "gdsNm": "test",
+      "dlvMsgCont": ""
+    }
+  ]
+}
+
+###
+### 한백통상
+POST http://hbleditest.empsystem.co.kr/api/HBL/GetRefineAddress
+Content-Type: application/json
+APIKEY:4224303A-5E3B-46D4-A44A-B017DAE7E13F
+
+{
+  "CD_COMPANYMAIN":"198",
+  "CD_COMPANY":"198W9003",
+  "CD_TNUMGB1":"01",
+  "CD_TNUMGB2":"0101",
+  "CD_TNUMGB3":"010101",
+  "CD_TNUMGB4":"01",
+  "CD_ERP_COMPANY":"N1002",
+  "DT_DATE":"20220613"
+}
+
+
+### 롯데글로벌로지스
+POST http://apigw.llogis.com:10110/api/address/b2bCdar
+Content-Type: application/json
+Authorization: IgtAK eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiJDMDEyNzg1IiwiYXVkIjoiQzAxMjc4NSIsIm5hbWUiOiJsZ3hqMjAiLCJzY29wZSI6IlJTX0FERFIiLCJleHAiOjE1MzUxMzU1OTk5OTksImlhdCI6MTY0NTY5MTc0N30.cMGPlQ9U3JgLLr2tPeLs976StRahd2h-_JYeUt8uMVw
+
+{
+  "CUST_CD": "244986",
+  "COP_CD": "N1032",
+  "BRAND_CD": "NG"
+}
+
+###
+
+### "authorization": [{"key": "Authorization", "value": "eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiJDMDEyNzg1IiwiYXVkIjoiQzAxMjc4NSIsIm5hbWUiOiJsZ3hqMjAiLCJzY29wZSI6IlJTX0FERFIiLCJleHAiOjE1MzUxMzU1OTk5OTksImlhdCI6MTY0NTY5MTc0N30.cMGPlQ9U3JgLLr2tPeLs976StRahd2h-_JYeUt8uMVw"}]
+
+
